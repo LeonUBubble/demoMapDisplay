@@ -3,7 +3,7 @@
   <display-name>AncientMap</display-name>
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>WEB-INF/classes/spring/applicationContext-*.xml</param-value>
+    <param-value>WEB-INF/classes/resources/spring-mybaits.xml</param-value>
   </context-param>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -13,7 +13,7 @@
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring/springmvc.xml</param-value>
+      <param-value>classpath:WEB-INF/classes/resourcres/spring-mvc.xml</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
